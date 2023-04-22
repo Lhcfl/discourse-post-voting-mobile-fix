@@ -1,0 +1,38 @@
+.mobile-view .post-voting-topic .topic-body .cooked, .post-voting-topic-sort-by-activity .topic-body .cooked {
+    margin-left: unset;
+}
+
+.mobile-view .post-voting-topic .topic-avatar .post-voting-post {
+    display: none;
+}
+    
+.mobile-view .post-voting-topic .post-voting-post {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin: unset;
+    flex-wrap: nowrap;
+    top: 0;
+/*     left: 47px; */
+    width: max-content;
+}
+    
+.mobile-view .post-voting-topic .post-menu-area .post-voting-button {
+    padding: 0 5px;
+}
+
+.mobile-view .post-voting-topic .post-controls.collapsed {
+    width: max-content;
+    flex: auto;
+}
+.mobile-view .post-voting-topic .post-controls.expanded {
+    flex: auto;
+}
+
+.mobile-view .post-voting-topic .post-menu-area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
