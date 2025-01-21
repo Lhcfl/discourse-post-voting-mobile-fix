@@ -1,4 +1,4 @@
-# **Theme Name**
+# **Post Voting Plugin Mobile Fix**
 
 **Theme Summary**
 
