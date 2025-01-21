@@ -1,9 +1,6 @@
 import Component from "@glimmer/component";
 import { action } from "@ember/object";
 import { service } from "@ember/service";
-import DButton from "discourse/components/d-button";
-import { ajax } from "discourse/lib/ajax";
-import { popupAjaxError } from "discourse/lib/ajax-error";
 import PostVotingButton from "discourse/plugins/discourse-post-voting/discourse/components/post-voting-button";
 
 export default class MobileVoteButtons extends Component {
@@ -12,7 +9,6 @@ export default class MobileVoteButtons extends Component {
   }
 
   static shouldRender(args) {
-    console.log(args.post);
     return args.post.topic?.is_post_voting;
   }
 
